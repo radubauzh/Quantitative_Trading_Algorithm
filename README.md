@@ -44,9 +44,11 @@ We encourage collaboration and knowledge sharing. If you would like to contribut
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Authors
-[Rafael Dubach](https://github.com/radubauzh)
-[David Diener](https://github.com/Dave5252)
-[Felix Wallhorn](https://github.com/)
+
+- ![Rafael Dubach](https://avatars.githubusercontent.com/u/50722791?v=4&s=40) [Rafael Dubach](https://github.com/radubauzh)
+- ![David Diener](https://avatars.githubusercontent.com/u/50728752?v=4&s=40) [David Diener](https://github.com/Dave5252)
+- ![Felix Wallhorn](https://github.com/) [Felix Wallhorn](https://github.com/)
+
 ---
 
 Join us in exploring the exciting intersection of finance and machine learning. Happy coding and happy trading!
