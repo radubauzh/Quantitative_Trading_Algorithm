@@ -1,4 +1,4 @@
-# Quantitative_Trading_Algorithm
+# Quantitative Trading Algorithm
 
 Welcome to the **Quantitative Trading Algorithm** repository for the **Investments – Selected Quantitative Tools (L)** course at the University of Zurich. This repository is dedicated to the practical application of financial forecasting and machine learning techniques for developing a quantitative trading algorithm focused on the S&P 500 market data.
 
@@ -43,7 +43,10 @@ We encourage collaboration and knowledge sharing. If you would like to contribut
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+## Authors
+[Rafael Dubach](https://github.com/radubauzh)
+[David Diener](https://github.com/Dave5252)
+[Felix Wallhorn](https://github.com/)
 ---
 
 Join us in exploring the exciting intersection of finance and machine learning. Happy coding and happy trading!
-```
