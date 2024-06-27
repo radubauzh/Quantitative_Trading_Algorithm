@@ -1,52 +1,38 @@
-# Quantitative Trading Algorithm
+# Data gathering and pre processing
 
-Welcome to the **Quantitative Trading Algorithm** repository for the **Investments – Selected Quantitative Tools (L)** course at the University of Zurich. This repository is dedicated to the practical application of financial forecasting and machine learning techniques for developing a quantitative trading algorithm focused on the S&P 500 market data.
+The File also includes all programs for the data gathering. Main file is the Jupiter Notebook!
 
-## Course Overview
-You'll find all the necessary materials and resources to use our robust prediction-based trading strategy in this repository. Our journey will encompass various advanced topics such as:
+The needed libraries are:
 
-- **Financial Forecasting**: Techniques for predicting short-term returns in financial markets.
-- **Estimation Methods**: Comparative analysis of Maximum Likelihood and Bayesian estimation.
-- **Kernel Machines**: Application of Support Vector Machines and other kernel-based methods.
-- **Neural Networks**: Implementation of deep learning models including Convolutional and Recurrent Neural Networks.
-- **Model Selection**: Criteria and techniques for selecting optimal models for trading strategies.
-- **Probabilistic Models**: Utilizing probabilistic approaches to capture market dynamics.
-- **Sequence Modeling**: Predictive modeling of time series data using recurrent architectures.
-- **Attention Mechanisms**: Enhancing model performance through attention-based architectures.
+- yfinance
+- pandas
+- numpy
+- csv
+- openpyxl
+- matplotlib.pyplot
+- tensorflow
+- keras
+- sklearn
+- seaborn
+- scikit-learn
 
-## Key Components
-- **Reading Materials**: You can find more information about the concepts used in the following textbooks:
-  - *Deep Learning* by Ian Goodfellow, Yoshua Bengio, and Aaron Courville.
-  - *Pattern Recognition and Machine Learning* by Christopher M. Bishop.
+Run the following command to install the needed libraries:
 
-## Getting Started
-1. **Clone the Repository**: Download the repository to your local machine.
-   ```bash
-   git clone https://github.com/YourUsername/Quantitative_Trading_Algorithm.git
-   ```
-2. **Install Dependencies**: Ensure you have all necessary Python packages by installing from the `requirements.txt` file.
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. **Explore the Notebooks**: Get familiar with financial forecasting and the basics of quantitative trading strategies.
-4. **Develop Your Strategy**: Use the provided tools and data to create and refine your own trading algorithm.
+`pip install numpy pandas matplotlib seaborn keras tensorflow scikit-learn`
 
-## Contribution Guidelines
-We encourage collaboration and knowledge sharing. If you would like to contribute:
-- Fork the repository.
-- Create a feature branch (`git checkout -b feature/YourFeature`).
-- Commit your changes (`git commit -m 'Add some feature'`).
-- Push to the branch (`git push origin feature/YourFeature`).
-- Open a Pull Request for review.
+The code is divided into three main parts:
 
+1. Data gathering `run.py` -> creates our used CSV, which served as datafoundation
+2. Hyperparametrization File _Hyperparametrization_ -> each executable to calculate best hyper parameter for the models. -> returns in shell command line the parameters and visuals.
+3. Best Model calculation and evaluation _jupiter File_ -> return None. All visuals used can be recalculated within here.
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+The main file is the SP500_Trading_Algrithm file. It contains all necessary information regarding the model creation and the model evaluation. The file is divided into the following parts:
 
+1. Feature Engineering: Data Preprocessing, Feature Selection, Feature Engineering. 
+2. Model Creation: LSTM, CNN, FFNN, Autoencoder
+3. Model Evaluation: 
 ## Authors
+
 - [Rafael Dubach](https://github.com/radubauzh)
 - [David Diener](https://github.com/Dave5252)
-- [Felix Wallhorn](https://github.com/)
----
-
-Join us in exploring the exciting intersection of finance and machine learning. Happy coding and happy trading!
+- [Felix Wallhorn](https://github.com/FWALL9)
