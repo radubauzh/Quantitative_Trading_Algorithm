@@ -74,6 +74,12 @@
 
 
 ## Overall Conclusion (David)
-- Different indicator sets and network architectures can effectively predict S&P 500 movements.
-- CNN and LSTM models showed robust predictive performance and reliable trading signals.
-- Key Takeaway: A multi-faceted approach leveraging diverse data sources enhances the predictive power of neural network models in financial markets.
+- Effectiveness of Diverse Indicators:
+
+    - Utilizing a combination of macroeconomic indicators, market sentiment factors, and commodity prices --> best predictive performance
+- LSTM model outperformed others when focusing on macroeconomic indicators
+- Key Takeaway:
+
+    - A multi-faceted approach leveraging diverse data sources and tailored neural network architectures significantly enhances the predictive power
+- Preventing Overfitting and Enhancing Generalization
+    - early stopping, small learning rates, dropout layers
