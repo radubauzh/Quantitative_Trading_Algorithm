@@ -27,14 +27,14 @@
 
 ## III. NETWORK ARCHITECTURES (Rafael)
  
-A. Feedforward Neural Networks (FFNN)
-- Simple architecture
-B. Autoencoders
-- Encoder, decoder
-C. Convolutional Neural Networks (CNN)
-- 1D
-D. Recurrent Neural Networks (RNN) and Long Short-Term Memory Networks (LSTM)
-- Sequential data
+- Feedforward Neural Networks (FFNN)
+    - Simple architecture
+- Autoencoders
+    - Encoder, decoder
+- Convolutional Neural Networks (CNN)
+    - 1D
+- Recurrent Neural Networks (RNN) and Long Short-Term Memory Networks (LSTM)
+    - Sequential data
 
 - Overall takes to prevent overfitting: 
     - Early stop
